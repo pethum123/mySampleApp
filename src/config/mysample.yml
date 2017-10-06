@@ -1,0 +1,15 @@
+eureka:
+  client:
+    shouldFetchRegistry: false
+  instance:
+    port: 5000
+mysql:
+  client:
+    database: mysample
+    username: root
+    password: mysample
+postgres:
+  client:
+    database: mysample
+    username: mysample
+    password: mysample
